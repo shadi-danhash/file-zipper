@@ -1,0 +1,117 @@
+WARNING:tensorflow:From <ipython-input-14-f0ce5e701a1f>:18: Model.fit_generator (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use Model.fit, which supports generators.
+Epoch 10/50
+2367/2367 [==============================] - ETA: 0s - loss: 1.5753 - accuracy: 0.7436 - top_k_categorical_accuracy: 0.9209
+Epoch 00010: val_loss improved from inf to 1.33831, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 2152s 909ms/step - loss: 1.5753 - accuracy: 0.7436 - top_k_categorical_accuracy: 0.9209 - val_loss: 1.3383 - val_accuracy: 0.7930 - val_top_k_categorical_accuracy: 0.9503
+Epoch 11/50
+2367/2367 [==============================] - ETA: 0s - loss: 1.5013 - accuracy: 0.7560 - top_k_categorical_accuracy: 0.9264
+Epoch 00011: val_loss improved from 1.33831 to 1.29272, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 2125s 898ms/step - loss: 1.5013 - accuracy: 0.7560 - top_k_categorical_accuracy: 0.9264 - val_loss: 1.2927 - val_accuracy: 0.8001 - val_top_k_categorical_accuracy: 0.9522
+Epoch 12/50
+2367/2367 [==============================] - ETA: 0s - loss: 1.4353 - accuracy: 0.7688 - top_k_categorical_accuracy: 0.9312
+Epoch 00012: val_loss improved from 1.29272 to 1.25752, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 2150s 908ms/step - loss: 1.4353 - accuracy: 0.7688 - top_k_categorical_accuracy: 0.9312 - val_loss: 1.2575 - val_accuracy: 0.8054 - val_top_k_categorical_accuracy: 0.9546
+Epoch 13/50
+2367/2367 [==============================] - ETA: 0s - loss: 1.3691 - accuracy: 0.7778 - top_k_categorical_accuracy: 0.9374
+Epoch 00013: val_loss improved from 1.25752 to 1.21698, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 2133s 901ms/step - loss: 1.3691 - accuracy: 0.7778 - top_k_categorical_accuracy: 0.9374 - val_loss: 1.2170 - val_accuracy: 0.8079 - val_top_k_categorical_accuracy: 0.9557
+Epoch 14/50
+2367/2367 [==============================] - ETA: 0s - loss: 1.3107 - accuracy: 0.7877 - top_k_categorical_accuracy: 0.9413
+Epoch 00014: val_loss improved from 1.21698 to 1.18886, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 2137s 903ms/step - loss: 1.3107 - accuracy: 0.7877 - top_k_categorical_accuracy: 0.9413 - val_loss: 1.1889 - val_accuracy: 0.8115 - val_top_k_categorical_accuracy: 0.9565
+Epoch 15/50
+2367/2367 [==============================] - ETA: 0s - loss: 1.2564 - accuracy: 0.7977 - top_k_categorical_accuracy: 0.9459
+Epoch 00015: val_loss improved from 1.18886 to 1.15757, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 2103s 889ms/step - loss: 1.2564 - accuracy: 0.7977 - top_k_categorical_accuracy: 0.9459 - val_loss: 1.1576 - val_accuracy: 0.8129 - val_top_k_categorical_accuracy: 0.9573
+Epoch 16/50
+2367/2367 [==============================] - ETA: 0s - loss: 1.2070 - accuracy: 0.8049 - top_k_categorical_accuracy: 0.9502
+Epoch 00016: val_loss improved from 1.15757 to 1.13330, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 2100s 887ms/step - loss: 1.2070 - accuracy: 0.8049 - top_k_categorical_accuracy: 0.9502 - val_loss: 1.1333 - val_accuracy: 0.8152 - val_top_k_categorical_accuracy: 0.9587
+Epoch 17/50
+2367/2367 [==============================] - ETA: 0s - loss: 1.1577 - accuracy: 0.8147 - top_k_categorical_accuracy: 0.9528
+Epoch 00017: val_loss improved from 1.13330 to 1.10889, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 2099s 887ms/step - loss: 1.1577 - accuracy: 0.8147 - top_k_categorical_accuracy: 0.9528 - val_loss: 1.1089 - val_accuracy: 0.8171 - val_top_k_categorical_accuracy: 0.9587
+Epoch 18/50
+2367/2367 [==============================] - ETA: 0s - loss: 1.1142 - accuracy: 0.8210 - top_k_categorical_accuracy: 0.9547
+Epoch 00018: val_loss improved from 1.10889 to 1.08167, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 2099s 887ms/step - loss: 1.1142 - accuracy: 0.8210 - top_k_categorical_accuracy: 0.9547 - val_loss: 1.0817 - val_accuracy: 0.8211 - val_top_k_categorical_accuracy: 0.9606
+Epoch 19/50
+2367/2367 [==============================] - ETA: 0s - loss: 1.0695 - accuracy: 0.8292 - top_k_categorical_accuracy: 0.9586
+Epoch 00019: val_loss improved from 1.08167 to 1.07156, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 2105s 889ms/step - loss: 1.0695 - accuracy: 0.8292 - top_k_categorical_accuracy: 0.9586 - val_loss: 1.0716 - val_accuracy: 0.8201 - val_top_k_categorical_accuracy: 0.9600
+Epoch 20/50
+2367/2367 [==============================] - ETA: 0s - loss: 1.0274 - accuracy: 0.8376 - top_k_categorical_accuracy: 0.9617
+Epoch 00020: val_loss improved from 1.07156 to 1.04906, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 2115s 893ms/step - loss: 1.0274 - accuracy: 0.8376 - top_k_categorical_accuracy: 0.9617 - val_loss: 1.0491 - val_accuracy: 0.8213 - val_top_k_categorical_accuracy: 0.9605
+Epoch 21/50
+2367/2367 [==============================] - ETA: 0s - loss: 0.9912 - accuracy: 0.8436 - top_k_categorical_accuracy: 0.9638
+Epoch 00021: val_loss improved from 1.04906 to 1.02246, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 2117s 894ms/step - loss: 0.9912 - accuracy: 0.8436 - top_k_categorical_accuracy: 0.9638 - val_loss: 1.0225 - val_accuracy: 0.8253 - val_top_k_categorical_accuracy: 0.9619
+Epoch 22/50
+2367/2367 [==============================] - ETA: 0s - loss: 0.9522 - accuracy: 0.8502 - top_k_categorical_accuracy: 0.9666
+Epoch 00022: val_loss improved from 1.02246 to 1.00992, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 2090s 883ms/step - loss: 0.9522 - accuracy: 0.8502 - top_k_categorical_accuracy: 0.9666 - val_loss: 1.0099 - val_accuracy: 0.8267 - val_top_k_categorical_accuracy: 0.9616
+Epoch 23/50
+2367/2367 [==============================] - ETA: 0s - loss: 0.9223 - accuracy: 0.8541 - top_k_categorical_accuracy: 0.9681
+Epoch 00023: val_loss improved from 1.00992 to 0.99597, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 2066s 873ms/step - loss: 0.9223 - accuracy: 0.8541 - top_k_categorical_accuracy: 0.9681 - val_loss: 0.9960 - val_accuracy: 0.8276 - val_top_k_categorical_accuracy: 0.9619
+Epoch 24/50
+1041/2367 [============>.................] - ETA: 17:43 - loss: 0.8816 - accuracy: 0.8650 - top_k_categorical_accuracy: 0.9699
+_________\
+________-
+__________=
+WARNING:tensorflow:From <ipython-input-31-3bd1d9130f32>:18: Model.fit_generator (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use Model.fit, which supports generators.
+Epoch 24/50
+2367/2367 [==============================] - ETA: 0s - loss: 0.8855 - accuracy: 0.8612 - top_k_categorical_accuracy: 0.9708
+Epoch 00024: val_loss improved from inf to 0.97938, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 2021s 854ms/step - loss: 0.8855 - accuracy: 0.8612 - top_k_categorical_accuracy: 0.9708 - val_loss: 0.9794 - val_accuracy: 0.8287 - val_top_k_categorical_accuracy: 0.9620
+Epoch 25/50
+2367/2367 [==============================] - ETA: 0s - loss: 0.8537 - accuracy: 0.8670 - top_k_categorical_accuracy: 0.9720
+Epoch 00025: val_loss improved from 0.97938 to 0.96986, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 1973s 834ms/step - loss: 0.8537 - accuracy: 0.8670 - top_k_categorical_accuracy: 0.9720 - val_loss: 0.9699 - val_accuracy: 0.8291 - val_top_k_categorical_accuracy: 0.9612
+Epoch 26/50
+2367/2367 [==============================] - ETA: 0s - loss: 0.8219 - accuracy: 0.8722 - top_k_categorical_accuracy: 0.9734
+Epoch 00026: val_loss improved from 0.96986 to 0.95927, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 1955s 826ms/step - loss: 0.8219 - accuracy: 0.8722 - top_k_categorical_accuracy: 0.9734 - val_loss: 0.9593 - val_accuracy: 0.8303 - val_top_k_categorical_accuracy: 0.9625
+Epoch 27/50
+2367/2367 [==============================] - ETA: 0s - loss: 0.7927 - accuracy: 0.8780 - top_k_categorical_accuracy: 0.9757
+Epoch 00027: val_loss improved from 0.95927 to 0.94342, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 1965s 830ms/step - loss: 0.7927 - accuracy: 0.8780 - top_k_categorical_accuracy: 0.9757 - val_loss: 0.9434 - val_accuracy: 0.8322 - val_top_k_categorical_accuracy: 0.9630
+Epoch 28/50
+2367/2367 [==============================] - ETA: 0s - loss: 0.7687 - accuracy: 0.8805 - top_k_categorical_accuracy: 0.9767
+Epoch 00028: val_loss improved from 0.94342 to 0.93280, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 1965s 830ms/step - loss: 0.7687 - accuracy: 0.8805 - top_k_categorical_accuracy: 0.9767 - val_loss: 0.9328 - val_accuracy: 0.8300 - val_top_k_categorical_accuracy: 0.9634
+Epoch 29/50
+2367/2367 [==============================] - ETA: 0s - loss: 0.7402 - accuracy: 0.8877 - top_k_categorical_accuracy: 0.9782
+Epoch 00029: val_loss improved from 0.93280 to 0.92235, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 1989s 840ms/step - loss: 0.7402 - accuracy: 0.8877 - top_k_categorical_accuracy: 0.9782 - val_loss: 0.9223 - val_accuracy: 0.8306 - val_top_k_categorical_accuracy: 0.9636
+Epoch 30/50
+2367/2367 [==============================] - ETA: 0s - loss: 0.7098 - accuracy: 0.8922 - top_k_categorical_accuracy: 0.9803
+Epoch 00030: val_loss improved from 0.92235 to 0.92205, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 1989s 840ms/step - loss: 0.7098 - accuracy: 0.8922 - top_k_categorical_accuracy: 0.9803 - val_loss: 0.9220 - val_accuracy: 0.8310 - val_top_k_categorical_accuracy: 0.9618
+Epoch 31/50
+2367/2367 [==============================] - ETA: 0s - loss: 0.6922 - accuracy: 0.8948 - top_k_categorical_accuracy: 0.9811
+Epoch 00031: val_loss improved from 0.92205 to 0.91123, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 1985s 839ms/step - loss: 0.6922 - accuracy: 0.8948 - top_k_categorical_accuracy: 0.9811 - val_loss: 0.9112 - val_accuracy: 0.8311 - val_top_k_categorical_accuracy: 0.9611
+Epoch 32/50
+2367/2367 [==============================] - ETA: 0s - loss: 0.6604 - accuracy: 0.9024 - top_k_categorical_accuracy: 0.9832
+Epoch 00032: val_loss improved from 0.91123 to 0.89975, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 1970s 832ms/step - loss: 0.6604 - accuracy: 0.9024 - top_k_categorical_accuracy: 0.9832 - val_loss: 0.8997 - val_accuracy: 0.8332 - val_top_k_categorical_accuracy: 0.9628
+Epoch 33/50
+2367/2367 [==============================] - ETA: 0s - loss: 0.6451 - accuracy: 0.9038 - top_k_categorical_accuracy: 0.9842
+Epoch 00033: val_loss improved from 0.89975 to 0.89609, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 1986s 839ms/step - loss: 0.6451 - accuracy: 0.9038 - top_k_categorical_accuracy: 0.9842 - val_loss: 0.8961 - val_accuracy: 0.8321 - val_top_k_categorical_accuracy: 0.9625
+Epoch 34/50
+2367/2367 [==============================] - ETA: 0s - loss: 0.6192 - accuracy: 0.9086 - top_k_categorical_accuracy: 0.9854
+Epoch 00034: val_loss improved from 0.89609 to 0.88827, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 1976s 835ms/step - loss: 0.6192 - accuracy: 0.9086 - top_k_categorical_accuracy: 0.9854 - val_loss: 0.8883 - val_accuracy: 0.8332 - val_top_k_categorical_accuracy: 0.9623
+Epoch 35/50
+2367/2367 [==============================] - ETA: 0s - loss: 0.6005 - accuracy: 0.9137 - top_k_categorical_accuracy: 0.9864
+Epoch 00035: val_loss improved from 0.88827 to 0.87625, saving model to /content/drive/My Drive/Colab Notebooks/InceptionV3/check_pointsbest_model_food101_NASNetLarge.hdf5
+2367/2367 [==============================] - 1939s 819ms/step - loss: 0.6005 - accuracy: 0.9137 - top_k_categorical_accuracy: 0.9864 - val_loss: 0.8762 - val_accuracy: 0.8348 - val_top_k_categorical_accuracy: 0.9623
+Epoch 36/50
+1042/2367 [============>.................] - ETA: 16:22 - loss: 0.5805 - accuracy: 0.9173 - top_k_categorical_accuracy: 0.9874
